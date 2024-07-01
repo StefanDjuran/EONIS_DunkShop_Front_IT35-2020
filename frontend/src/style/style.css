@@ -1,0 +1,73 @@
+.whole_page {
+    background-image: url('../common/bgimage.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.main_header {
+    font-size: 48px;
+}
+
+.registration_link {
+    display: block;
+    margin-top: 20px
+}
+
+.centered_spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.filter_item {
+    margin: 10px 0px;
+}
+
+.pagination_btn {
+    margin: 0px 10px;
+}
+
+.product {
+    width: 20rem;
+}
+
+.payment_form {
+    text-align: center;
+}
+
+.pay_btn {
+    margin-top: 20px;
+}
+
+.cart {
+    margin-top: 20px;
+}
+
+.custom_modal {
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.order_title {
+    color: orange;
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 100;
+}
+
+.order_text_item {
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    
+}
